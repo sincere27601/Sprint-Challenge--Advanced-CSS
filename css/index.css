@@ -172,12 +172,8 @@ p {
     width: 100%;
   }
 }
-a {
-  text-decoration: none;
-  color: black;
-}
 @media "(max-width: 500px)" {
-  a {
+  .btn a {
     display: flex;
     flex-direction: space-evenly;
     width: 100%;
@@ -261,13 +257,14 @@ footer .home .walk .walk-img img {
   height: auto;
   border-radius: 10px;
 }
-footer .btn {
+footer .navking .btn {
   font-size: 27px;
   margin: 100px  100px;
   color: white;
   background-color: black;
-  border-radius: 8px;
-  display: flex;
+}
+footer .btn:hover {
+  background-color: teal;
 }
 @media "(max-width: 500px)" {
   footer .walk {
