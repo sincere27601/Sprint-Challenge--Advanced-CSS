@@ -3,105 +3,16 @@
 
 // Vars and Mixins
 @import "variables";
-@phone:"(max-width: 500px)";
-
 @import "mixins";
-
-
-.navking(@display,@border-radius,){
-    display: @display;
-    border-radius: @border-radius;
-      
-      .navking(flex,8px,);
-  }
-
-.btnking(@color, @text-decoration){
-     color: @color;
-      text-decoration: @text-decoration;
-      .btnking(black, none)
-  }
-.center(){
-display: flex;
-}
-.width(){
-    width: 100%;
-}
-
-
-
 // General Styles Here
 @import "reset";
 @import "global";
-
 // Components Here
 @import "navigation";
-
-.navone{
-   .center();
-   justify-content: space-evenly;
-    font-size: 20px;
-
-    @media @phone { 
-        display: flex;
-        flex-direction: space-evenly;
-        .width();
-       }
-
-}
-
- .btn a{
-    
-    @media @phone { 
-        display: flex;
-        flex-direction: space-evenly;
-        width: 100%
-       }
-}
-h1{
-    display: flex;
-    justify-content: center; 
-    font-size: 40px;
-    margin: 30px;
-    background-color: lightgrey;
-
-    
-
-}
 @import "footer";
-footer{
-    background-color: lightgrey;
-   @media @phone { 
-        display: flex;
-        flex-direction: center;
-        width: 100%
-       }
-
 @import "home-page";
 
-.navking .btn{
-      font-size: 27px;
-      margin: 100px  100px;
-      color:white;
-      background-color:black;
-      
-      
-  
-}
-.btn:hover{
-background-color: teal;
-}
 
-    @media @phone { 
-        .walk{ display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-    
-
-
-
-        
-    }
 
  
 
@@ -116,4 +27,3 @@ background-color: teal;
 
 
 
-}
