@@ -173,7 +173,7 @@ p {
   .navone {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
@@ -184,8 +184,7 @@ p {
   }
 }
 .btn a h1 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 footer {
   background-color: lightgrey;
