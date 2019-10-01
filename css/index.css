@@ -164,6 +164,7 @@ h1 {
   text-align: center;
   font-size: 40px;
   background-color: lightgray;
+  height: 85px;
 }
 @media (max-width: 500px) {
   h1 {
@@ -184,7 +185,9 @@ h1 {
 }
 @media (max-width: 500px) {
   .navone {
-    Margin: 10px;
+    Margin: 0px;
+    background-color: lightgray;
+    height: 40px;
   }
 }
 @media (max-width: 500px) {
@@ -204,7 +207,7 @@ footer {
   footer {
     margin: 0 auto;
     display: flex;
-    width: 400px;
+    width: 460px;
     height: 80px;
     align-items: center;
     font-size: 20px;
